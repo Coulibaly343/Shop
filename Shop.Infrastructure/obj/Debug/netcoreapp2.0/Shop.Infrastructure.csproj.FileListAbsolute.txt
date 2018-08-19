@@ -1,0 +1,8 @@
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.deps.json
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.dll
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.AssemblyInfo.cs
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.json
+C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.dev.json

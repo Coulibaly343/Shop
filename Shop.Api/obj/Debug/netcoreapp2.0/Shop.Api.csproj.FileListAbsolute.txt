@@ -1,0 +1,8 @@
+C:\Users\amado\source\repos\Shop\Shop.Api\bin\Debug\netcoreapp2.0\Shop.Api.deps.json
+C:\Users\amado\source\repos\Shop\Shop.Api\bin\Debug\netcoreapp2.0\Shop.Api.runtimeconfig.json
+C:\Users\amado\source\repos\Shop\Shop.Api\bin\Debug\netcoreapp2.0\Shop.Api.runtimeconfig.dev.json
+C:\Users\amado\source\repos\Shop\Shop.Api\bin\Debug\netcoreapp2.0\Shop.Api.dll
+C:\Users\amado\source\repos\Shop\Shop.Api\obj\Debug\netcoreapp2.0\Shop.Api.csprojResolveAssemblyReference.cache
+C:\Users\amado\source\repos\Shop\Shop.Api\obj\Debug\netcoreapp2.0\Shop.Api.csproj.CoreCompileInputs.cache
+C:\Users\amado\source\repos\Shop\Shop.Api\obj\Debug\netcoreapp2.0\Shop.Api.AssemblyInfoInputs.cache
+C:\Users\amado\source\repos\Shop\Shop.Api\obj\Debug\netcoreapp2.0\Shop.Api.AssemblyInfo.cs
