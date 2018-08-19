@@ -670,15 +670,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\amado\\source\\repos\\Shop\\Shop.Core\\Shop.Core.csproj",
+      "projectUniqueName": "c:\\Users\\amado\\Desktop\\Shop\\Shop.Core\\Shop.Core.csproj",
       "projectName": "Shop.Core",
-      "projectPath": "C:\\Users\\amado\\source\\repos\\Shop\\Shop.Core\\Shop.Core.csproj",
+      "projectPath": "c:\\Users\\amado\\Desktop\\Shop\\Shop.Core\\Shop.Core.csproj",
       "packagesPath": "C:\\Users\\amado\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amado\\source\\repos\\Shop\\Shop.Core\\obj\\",
+      "outputPath": "c:\\Users\\amado\\Desktop\\Shop\\Shop.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

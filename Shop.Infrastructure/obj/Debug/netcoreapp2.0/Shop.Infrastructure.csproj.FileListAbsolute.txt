@@ -6,3 +6,16 @@ C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Sho
 C:\Users\amado\source\repos\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.AssemblyInfo.cs
 C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.json
 C:\Users\amado\source\repos\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.dev.json
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.deps.json
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.json
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.runtimeconfig.dev.json
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.dll
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Infrastructure.pdb
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Core.dll
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\bin\Debug\netcoreapp2.0\Shop.Core.pdb
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.csprojResolveAssemblyReference.cache
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.csproj.CoreCompileInputs.cache
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.AssemblyInfoInputs.cache
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.AssemblyInfo.cs
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.dll
+c:\Users\amado\Desktop\Shop\Shop.Infrastructure\obj\Debug\netcoreapp2.0\Shop.Infrastructure.pdb
