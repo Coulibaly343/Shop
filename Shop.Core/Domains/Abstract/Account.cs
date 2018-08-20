@@ -8,23 +8,22 @@ namespace Shop.Core.Domains.Abstract {
         public string Email { get; private set; }
         public byte[] PasswordHash { get; private set; }
         public byte[] PasswordSalt { get; private set; }
-        public string Role { get; private set; }
+        public string Role { get; protected set; }
         public DateTime CreatedAt { get; private set; }
         public DateTime UpdatedAt { get; private set; }
         public bool Deleted { get; private set; }
         public bool Activated { get; private set; }
-        // public UserRestoringPassword UserRestoringPassword { get; private set; }
+        public Address Address { get; private set; }
         protected Account () { }
-        public Account (string email, string password, string name, string surname, string country) {
-            Email = email;
+        public Account (string name, string surname, string email, string password) {
             Name = name;
             Surname = surname;
-            Role = "user";
+            Email = email;
             CreatePasswordHash (password);
             CreatedAt = DateTime.UtcNow;
             UpdatedAt = DateTime.UtcNow;
             Deleted = false;
-            Activated = false;
+            Activated = true;
         }
 
         public void Delete () {
@@ -39,6 +38,10 @@ namespace Shop.Core.Domains.Abstract {
                 PasswordSalt = hmac.Key;
                 PasswordHash = hmac.ComputeHash (System.Text.Encoding.UTF8.GetBytes (password));
             }
+        }
+
+        public void AddAddress (Address address) {
+            Address = address;
         }
 
     }
