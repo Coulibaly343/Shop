@@ -47,7 +47,7 @@ namespace Shop.Api {
             services.AddDbContext<ShopContext> (options =>
                 options.UseSqlServer (Configuration.GetConnectionString ("ShopDatabase"), b =>
                     b.MigrationsAssembly ("Shop.Api")));
-            var key = Encoding.ASCII.GetBytes (Configuration.GetSection ("JWTSettings:Key").Value);
+            var key = Encoding.ASCII.GetBytes (Configuration.GetSection ("JwtSettings:Key").Value);
             services.AddAuthentication (JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer (options => {
                     options.TokenValidationParameters = new TokenValidationParameters {
