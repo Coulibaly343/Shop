@@ -6,7 +6,7 @@ using Shop.Infrastructure.Dto.User;
 
 namespace Shop.Infrastructure.Services.Interfaces {
     public interface IUserService {
-        Task<IEnumerable<UserDto>> GetAllAsync ();
+        Task<IEnumerable<UserDto>> GetAllDtoAsync ();
         Task<bool> ExistByIdAsync (int id);
         Task<bool> ExistByEmailAsync (string email);
         Task UpdateAsync (int id, string name, string surname, string flatNumber, string streetNumber,

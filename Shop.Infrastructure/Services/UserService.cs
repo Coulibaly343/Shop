@@ -16,7 +16,7 @@ namespace Shop.Infrastructure.Services {
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<UserDto>> GetAllAsync () {
+        public async Task<IEnumerable<UserDto>> GetAllDtoAsync () {
             var users = await _userRepository.GetAllAsync ();
             return _mapper.Map<IEnumerable<UserDto>> (users);
         }

@@ -9,7 +9,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Shop.Infrastructure.AutoMapper;
 using Shop.Infrastructure.Data;
+using Shop.Infrastructure.Repositories;
+using Shop.Infrastructure.Repositories.Interfaces;
+using Shop.Infrastructure.Services;
+using Shop.Infrastructure.Services.Interfaces;
 
 namespace Shop.Api {
     public class Startup {
@@ -29,6 +34,24 @@ namespace Shop.Api {
             services.AddDbContext<ShopContext> (options =>
                 options.UseSqlServer (Configuration.GetConnectionString ("ShopDatabase"), b =>
                     b.MigrationsAssembly ("Shop.Api")));
+            services.AddSingleton (AutoMapperConfig.Initialize ());
+            services.AddAuthorization (options => options.AddPolicy ("admin", policy => policy.RequireRole ("admin")));
+            services.AddAuthorization (options => options.AddPolicy ("user", policy => policy.RequireRole ("user")));
+
+            #endregion
+            #region Repositories
+
+            services.AddScoped<IAccountRepository, AccountRepository> ();
+            services.AddScoped<IAdminRepository, AdminRepository> ();
+            services.AddScoped<IUserRepository, UserRepository> ();
+
+            #endregion
+            #region Services
+
+            services.AddScoped<IAccountService, AccountService> ();
+            services.AddScoped<IAdminService, AdminService> ();
+            services.AddScoped<IUserService, UserService> ();
+            services.AddScoped<IAuthService, AuthService> ();
 
             #endregion
         }
