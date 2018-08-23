@@ -17,9 +17,11 @@ namespace Shop.Infrastructure.Services {
         public async Task<bool> ExistByEmailAsync (string email) =>
             await _adminRepository.GetByEmailAsync (email, false) != null;
 
-        public async Task UpdateAsync (int id, string name, string surname) {
-            var admin = await _adminRepository.GetByIdAsync (id);
+        public async Task UpdateAsync (int id, string name, string surname, string flatNumber, string streetNumber,
+            string street, string city, string zipCode) {
+            var admin = await _adminRepository.GetWithAddressAsync (id);
             admin.Update (name, surname);
+            admin.Address.Update (flatNumber, streetNumber, street, city, zipCode);
             await _adminRepository.UpdateAsync (admin);
         }
 

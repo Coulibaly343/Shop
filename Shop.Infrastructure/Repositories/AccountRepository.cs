@@ -14,6 +14,7 @@ namespace Shop.Infrastructure.Repositories {
             _context = context;
         }
 
+
         public async Task<IEnumerable<Account>> GetAllAsync (bool isTracking = true) {
             if (isTracking)
                 return await Task.FromResult (_context.Accounts.AsTracking ().AsEnumerable ());

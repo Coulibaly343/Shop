@@ -11,6 +11,8 @@ namespace Shop.Infrastructure.Repositories {
         public AdminRepository (ShopContext context) {
             _context = context;
         }
+
+        
         public async Task AddAsync (Admin admin) {
             await _context.Admins.AddAsync (admin);
             await _context.SaveChangesAsync ();
