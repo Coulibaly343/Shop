@@ -3,17 +3,17 @@ using System;
 namespace Shop.Core.Domains.Abstract {
     public abstract class Account {
         public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string Surname { get; private set; }
-        public string Email { get; private set; }
-        public byte[] PasswordHash { get; private set; }
-        public byte[] PasswordSalt { get; private set; }
+        public string Name { get; protected set; }
+        public string Surname { get; protected set; }
+        public string Email { get; protected set; }
+        public byte[] PasswordHash { get; protected set; }
+        public byte[] PasswordSalt { get; protected set; }
         public string Role { get; protected set; }
-        public DateTime CreatedAt { get; private set; }
-        public DateTime UpdatedAt { get; private set; }
-        public bool Deleted { get; private set; }
-        public bool Activated { get; private set; }
-        public Address Address { get; private set; }
+        public DateTime CreatedAt { get; protected set; }
+        public DateTime UpdatedAt { get; protected set; }
+        public bool Deleted { get; protected set; }
+        public bool Activated { get; protected set; }
+        public Address Address { get; protected set; }
         protected Account () { }
         public Account (string name, string surname, string email, string password) {
             Name = name;
