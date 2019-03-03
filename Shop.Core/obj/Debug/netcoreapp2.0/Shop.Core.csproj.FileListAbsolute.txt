@@ -1,8 +1,0 @@
-c:\Users\amado\Desktop\Shop\Shop.Core\bin\Debug\netcoreapp2.0\Shop.Core.deps.json
-c:\Users\amado\Desktop\Shop\Shop.Core\bin\Debug\netcoreapp2.0\Shop.Core.dll
-c:\Users\amado\Desktop\Shop\Shop.Core\bin\Debug\netcoreapp2.0\Shop.Core.pdb
-c:\Users\amado\Desktop\Shop\Shop.Core\obj\Debug\netcoreapp2.0\Shop.Core.csproj.CoreCompileInputs.cache
-c:\Users\amado\Desktop\Shop\Shop.Core\obj\Debug\netcoreapp2.0\Shop.Core.AssemblyInfoInputs.cache
-c:\Users\amado\Desktop\Shop\Shop.Core\obj\Debug\netcoreapp2.0\Shop.Core.AssemblyInfo.cs
-c:\Users\amado\Desktop\Shop\Shop.Core\obj\Debug\netcoreapp2.0\Shop.Core.dll
-c:\Users\amado\Desktop\Shop\Shop.Core\obj\Debug\netcoreapp2.0\Shop.Core.pdb
